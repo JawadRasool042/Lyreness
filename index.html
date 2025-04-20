@@ -18,12 +18,16 @@
         </div>
         <ul class="nav-links">
           <li class="active">
-            <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
           </li>
           <li>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <span>Search</span>
+            <a href="search.html">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>
+            </a>
           </li>
         </ul>
 
@@ -33,18 +37,22 @@
               <i class="fa-solid fa-books"></i>
               <span>Your Library</span>
             </div>
-            <i class="fa-solid fa-plus" style="cursor: pointer;"></i>
+            <i class="fa-solid fa-plus" style="cursor: pointer"></i>
           </div>
 
           <div class="library-content">
             <h3>Your Library</h3>
             <p class="helper-text">It's easy, we'll help you</p>
-            <button class="create-playlist-btn">Create playlist</button>
+            <a href="create-playlist.html">
+              <button class="create-playlist-btn">Create playlist</button>
+            </a>
 
             <div class="podcast-section">
               <h3>Let's find some podcasts to follow</h3>
               <p>We'll keep you updated on new episodes</p>
-              <button class="browse-podcasts-btn">Browse podcasts</button>
+              <a href="browse-podcasts.html">
+                <button class="browse-podcasts-btn">Browse podcasts</button>
+              </a>
             </div>
           </div>
         </div>
@@ -64,7 +72,6 @@
           </button>
         </div>
       </nav>
-
       <main class="main-content">
         <header class="top-bar">
           <div class="navigation-buttons">
@@ -80,12 +87,20 @@
             </div>
           </div>
           <div class="user-actions">
-            <button class="premium-btn">Premium</button>
-            <button class="support-btn">Support</button>
-            <button class="download-btn">Download</button>
+            <a href="premium.html"
+              ><button class="premium-btn">Premium</button></a
+            >
+            <a href="support.html"
+              ><button class="support-btn">Support</button></a
+            >
+            <a href="download.html"
+              ><button class="download-btn">Download</button></a
+            >
             <span class="separator"></span>
-            <button class="signup-btn">Sign up</button>
-            <button class="login-btn">Log in</button>
+            <a href="signup.html"
+              ><button class="signup-btn">Sign up</button></a
+            >
+            <a href="login.html"><button class="login-btn">Log in</button></a>
           </div>
         </header>
 
@@ -251,218 +266,214 @@
             </div>
           </section>
 
-            
-
-
-            <div class="content">
-                <section class="albums-section">
-                  <div class="section-header">
-                    <h2>Popular radio</h2>
-                    <a href="#" class="show-all">Show all</a>
+          <section class="albums-section">
+            <div class="section-header">
+              <h2>Popular radio</h2>
+              <a href="#" class="show-all">Show all</a>
+            </div>
+            <div class="album-grid">
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b"
+                    alt="Afsos"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
                   </div>
-                  <div class="album-grid">
-                    <div class="album-card">
-                      <div class="img-container">
-                        <img
-                          src="https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b"
-                          alt="Afsos"
-                        />
-                        <div class="play-hover">
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                      </div>
-                      <h3>Afsos</h3>
-                      <p>Anuv Jain, AP Dhillon</p>
-                    </div>
-                    <div class="album-card">
-                      <div class="img-container">
-                        <img
-                          src="https://i.scdn.co/image/ab67616d00001e02c08202c50371e234d20caf62"
-                          alt="Pal Pal"
-                        />
-                        <div class="play-hover">
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                      </div>
-                      <h3>Pal Pal</h3>
-                      <p>Afusic, AliSoomroMusic</p>
-                    </div>
-                    <div class="album-card">
-                      <div class="img-container">
-                        <img
-                          src="https://i.scdn.co/image/ab67616d00001e02e46e7c9f477b2bc0c41688c8"
-                          alt="My Terrible Mind"
-                        />
-                        <div class="play-hover">
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                      </div>
-                      <h3>My Terrible Mind</h3>
-                      <p>Talha Anjum, Umair</p>
-                    </div>
-                    <div class="album-card">
-                      <div class="img-container">
-                        <img
-                          src="https://i.scdn.co/image/ab67616d00001e02931b61b7382db17ed15e75fc"
-                          alt="Safar"
-                        />
-                        <div class="play-hover">
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                      </div>
-                      <h3>Safar</h3>
-                      <p>Bayaan</p>
-                    </div>
-                    <div class="album-card">
-                      <div class="img-container">
-                        <img
-                          src="https://i.scdn.co/image/ab67616d00001e023f3d35703bdcd917dad51c4f"
-                          alt="Jhol"
-                        />
-                        <div class="play-hover">
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                      </div>
-                      <h3>Jhol</h3>
-                      <p>Maanu, Annural Khalid</p>
-                    </div>
+                </div>
+                <h3>Afsos</h3>
+                <p>Anuv Jain, AP Dhillon</p>
+              </div>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02c08202c50371e234d20caf62"
+                    alt="Pal Pal"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
                   </div>
-                </section>
-                <div class="content">
-                    
-                    <section class="albums-section">
-                      <div class="section-header">
-                        <h2>Trending Songs</h2>
-                        <a href="#" class="show-all">Show all</a>
-                      </div>
-                      <div class="album-grid">
-                        <div class="album-card">
-                          <div class="img-container">
-                            <img
-                              src="https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b"
-                              alt="Afsos"
-                            />
-                            <div class="play-hover">
-                              <i class="fa-solid fa-play"></i>
-                            </div>
-                          </div>
-                          <h3>Afsos</h3>
-                          <p>Anuv Jain, AP Dhillon</p>
-                        </div>
-                        <div class="album-card">
-                          <div class="img-container">
-                            <img
-                              src="https://i.scdn.co/image/ab67616d00001e02c08202c50371e234d20caf62"
-                              alt="Pal Pal"
-                            />
-                            <div class="play-hover">
-                              <i class="fa-solid fa-play"></i>
-                            </div>
-                          </div>
-                          <h3>Pal Pal</h3>
-                          <p>Afusic, AliSoomroMusic</p>
-                        </div>
-                        <div class="album-card">
-                          <div class="img-container">
-                            <img
-                              src="https://i.scdn.co/image/ab67616d00001e02e46e7c9f477b2bc0c41688c8"
-                              alt="My Terrible Mind"
-                            />
-                            <div class="play-hover">
-                              <i class="fa-solid fa-play"></i>
-                            </div>
-                          </div>
-                          <h3>My Terrible Mind</h3>
-                          <p>Talha Anjum, Umair</p>
-                        </div>
-                        <div class="album-card">
-                          <div class="img-container">
-                            <img
-                              src="https://i.scdn.co/image/ab67616d00001e02931b61b7382db17ed15e75fc"
-                              alt="Safar"
-                            />
-                            <div class="play-hover">
-                              <i class="fa-solid fa-play"></i>
-                            </div>
-                          </div>
-                          <h3>Safar</h3>
-                          <p>Bayaan</p>
-                        </div>
-                        <div class="album-card">
-                          <div class="img-container">
-                            <img
-                              src="https://i.scdn.co/image/ab67616d00001e023f3d35703bdcd917dad51c4f"
-                              alt="Jhol"
-                            />
-                            <div class="play-hover">
-                              <i class="fa-solid fa-play"></i>
-                            </div>
-                          </div>
-                          <h3>Jhol</h3>
-                          <p>Maanu, Annural Khalid</p>
-                        </div>
-                      </div>
-                    </section>
-
-          <footer class="app-footer">
-            <div class="footer-content">
-              <div class="footer-section">
-                <h4>Company</h4>
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">For the Record</a></li>
-                </ul>
+                </div>
+                <h3>Pal Pal</h3>
+                <p>Afusic, AliSoomroMusic</p>
               </div>
-              <div class="footer-section">
-                <h4>Communities</h4>
-                <ul>
-                  <li><a href="#">For Artists</a></li>
-                  <li><a href="#">Developers</a></li>
-                  <li><a href="#">Advertising</a></li>
-                  <li><a href="#">Investors</a></li>
-                  <li><a href="#">Vendors</a></li>
-                </ul>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02e46e7c9f477b2bc0c41688c8"
+                    alt="My Terrible Mind"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>My Terrible Mind</h3>
+                <p>Talha Anjum, Umair</p>
               </div>
-              <div class="footer-section">
-                <h4>Useful links</h4>
-                <ul>
-                  <li><a href="#">Support</a></li>
-                  <li><a href="#">Free Mobile App</a></li>
-                </ul>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02931b61b7382db17ed15e75fc"
+                    alt="Safar"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Safar</h3>
+                <p>Bayaan</p>
               </div>
-              <div class="footer-section">
-                <h4>Lyreness Plans</h4>
-                <ul>
-                  <li><a href="#">Premium Individual</a></li>
-                  <li><a href="#">Premium Duo</a></li>
-                  <li><a href="#">Premium Family</a></li>
-                  <li><a href="#">Premium Student</a></li>
-                  <li><a href="#">Lyreness Free</a></li>
-                </ul>
-              </div>
-              <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e023f3d35703bdcd917dad51c4f"
+                    alt="Jhol"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Jhol</h3>
+                <p>Maanu, Annural Khalid</p>
               </div>
             </div>
-            <div class="footer-bottom">
-              <p>© 2024 Lyreness </p>
+          </section>
+
+          <section class="albums-section">
+            <div class="section-header">
+              <h2>Trending Songs</h2>
+              <a href="#" class="show-all">Show all</a>
             </div>
-          </footer>
+            <div class="album-grid">
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b"
+                    alt="Afsos"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Afsos</h3>
+                <p>Anuv Jain, AP Dhillon</p>
+              </div>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02c08202c50371e234d20caf62"
+                    alt="Pal Pal"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Pal Pal</h3>
+                <p>Afusic, AliSoomroMusic</p>
+              </div>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02e46e7c9f477b2bc0c41688c8"
+                    alt="My Terrible Mind"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>My Terrible Mind</h3>
+                <p>Talha Anjum, Umair</p>
+              </div>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e02931b61b7382db17ed15e75fc"
+                    alt="Safar"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Safar</h3>
+                <p>Bayaan</p>
+              </div>
+              <div class="album-card">
+                <div class="img-container">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e023f3d35703bdcd917dad51c4f"
+                    alt="Jhol"
+                  />
+                  <div class="play-hover">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <h3>Jhol</h3>
+                <p>Maanu, Annural Khalid</p>
+              </div>
+            </div>
+          </section>
         </div>
+
+        <footer class="app-footer">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">For the Record</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>Communities</h4>
+              <ul>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>Useful links</h4>
+              <ul>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="download.html">Free Mobile App</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>Lyreness Plans</h4>
+              <ul>
+                <li><a href="premium.html">Premium Individual</a></li>
+                <li><a href="premium.html">Premium Duo</a></li>
+                <li><a href="premium.html">Premium Family</a></li>
+                <li><a href="premium.html">Premium Student</a></li>
+                <li><a href="signup.html">Lyreness Free</a></li>
+              </ul>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 Lyreness</p>
+          </div>
+        </footer>
       </main>
     </div>
 
-    
     <div class="preview-bar">
       <p>Preview of Lyreness</p>
       <p>
         Sign up to get unlimited songs and podcasts with occasional ads. No
         credit card needed.
       </p>
-      <button class="signup-free-btn">Sign up for free</button>
+      <a href="signup.html"
+        ><button class="signup-free-btn">Sign up for free</button></a
+      >
     </div>
   </body>
 </html>
