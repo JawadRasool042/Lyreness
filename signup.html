@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Lyreness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="signup-page">
+    <div class="container">
+      <nav class="sidebar">
+        <div class="logo">
+          <a href="index.html">
+            <h1 class="logo-text">Lyreness</h1>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="search.html">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="library-section">
+          <div class="library-header">
+            <div class="library-icon">
+              <i class="fa-solid fa-books"></i>
+              <span>Your Library</span>
+            </div>
+            <i class="fa-solid fa-plus" style="cursor: pointer"></i>
+          </div>
+
+          <div class="library-content">
+            <h3>Your Library</h3>
+            <p class="helper-text">It's easy, we'll help you</p>
+            <a href="create-playlist.html">
+              <button class="create-playlist-btn">Create playlist</button>
+            </a>
+
+            <div class="podcast-section">
+              <h3>Let's find some podcasts to follow</h3>
+              <p>We'll keep you updated on new episodes</p>
+              <a href="browse-podcasts.html">
+                <button class="browse-podcasts-btn">Browse podcasts</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="legal-links">
+          <div class="links-grid">
+            <a href="#">Legal</a>
+            <a href="#">Safety & Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+          </div>
+          <button class="language-btn">
+            <i class="fa-solid fa-globe"></i>
+            English
+          </button>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <header class="top-bar">
+          <div class="navigation-buttons">
+            <button class="nav-btn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <div class="search-container">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="What do you want to play?" />
+            </div>
+          </div>
+          <div class="user-actions">
+            <a href="premium.html"
+              ><button class="premium-btn">Premium</button></a
+            >
+            <a href="support.html"
+              ><button class="support-btn">Support</button></a
+            >
+            <a href="download.html"
+              ><button class="download-btn">Download</button></a
+            >
+            <span class="separator"></span>
+            <a href="signup.html"
+              ><button class="signup-btn active" style="color: #7B2CBF;">Sign up</button></a
+            >
+            <a href="login.html"><button class="login-btn">Log in</button></a>
+          </div>
+        </header>
+
+        <div class="content">
+          <section class="auth-section">
+            <div class="auth-header">
+              <h1>Sign up for free to start listening.</h1>
+            </div>
+
+            <div class="auth-form">
+              <form>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="password">Create a password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="display-name">What should we call you?</label>
+                  <input
+                    type="text"
+                    id="display-name"
+                    name="display-name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Date of birth</label>
+                  <div class="date-inputs">
+                    <input
+                      type="number"
+                      id="day"
+                      name="day"
+                      placeholder="DD"
+                      min="1"
+                      max="31"
+                      required
+                    />
+                    <input
+                      type="number"
+                      id="month"
+                      name="month"
+                      placeholder="MM"
+                      min="1"
+                      max="12"
+                      required
+                    />
+                    <input
+                      type="number"
+                      id="year"
+                      name="year"
+                      placeholder="YYYY"
+                      min="1900"
+                      max="2024"
+                      required
+                    />
+                  </div>
+                </div>
+               
+                </div>
+                <div class="checkbox-group">
+                  <input type="checkbox" id="terms" name="terms" required />
+                  <label for="terms"
+                    >I agree to the Lyreness Terms and Conditions of Use and
+                    Privacy Policy.</label
+                  >
+                </div>
+                <div class="checkbox-group">
+                  <input type="checkbox" id="marketing" name="marketing" />
+                  <label for="marketing"
+                    >I would like to receive marketing messages from
+                    Lyreness.</label
+                  >
+                </div>
+                <button type="submit" class="auth-btn">Sign Up</button>
+              </form>
+              <div class="auth-links">
+                <p>Already have an account? <a href="login.html">Log in</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
